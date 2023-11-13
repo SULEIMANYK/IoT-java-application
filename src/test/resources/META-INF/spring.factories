@@ -1,0 +1,5 @@
+org.springframework.test.context.ContextCustomizerFactory = com.suleiman.iot.\
+    config.TestContainersSpringContextCustomizerFactory,com.suleiman.iot.config.\
+    SqlTestContainersSpringContextCustomizerFactory,com.suleiman.iot.config.\
+    KafkaTestContainersSpringContextCustomizerFactory,com.suleiman.iot.config.\
+    RedisTestContainersSpringContextCustomizerFactory
